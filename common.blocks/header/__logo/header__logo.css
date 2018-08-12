@@ -1,0 +1,9 @@
+.header__logo {
+  width: 329px;
+  height: 60px;
+  padding: 10px;
+  background-image: url("../../../static/img/logo.png");
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-position: top left;
+}

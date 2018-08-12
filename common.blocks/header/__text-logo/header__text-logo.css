@@ -1,0 +1,9 @@
+.header__text-logo {
+  color: #ffffffe6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 37.8px;
+  font-weight: 600;
+  text-shadow: 7px 7px 12px #00000087;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
