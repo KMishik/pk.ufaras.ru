@@ -24,11 +24,11 @@ module.exports = {
             },
             {
               block: 'sticker',
-              js: true,
               mix: { block: 'header', elem: 'sticker' },
               content: [
                 {
-                  elem: 'offic-name'
+                  elem: 'offic-name',
+                  content: [ 'Официальный сайт БашГУ' ]
                 },
                 {
                   block: 'sticker',
@@ -52,7 +52,17 @@ module.exports = {
                 },
                 {
                   block: 'search',
-                  mix: { block: 'sticker', elem: 'search' }
+                  mix: { block: 'sticker', elem: 'search' },
+                  content: [
+                    {
+                      block: 'input',
+                      mix: { block: 'search', elem: 'input' }
+                    },
+                    {
+                      block: 'button',
+                      mix: { block: 'search', elem: 'submit' }
+                    }
+                  ]
                 }
               ]
             }

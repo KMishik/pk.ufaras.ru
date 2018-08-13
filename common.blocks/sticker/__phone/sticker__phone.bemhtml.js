@@ -1,5 +1,6 @@
 block('sticker').elem('phone')({
   wrap: (node, ctx) => {
+    debugger;
     return [
       {
         block: 'link',

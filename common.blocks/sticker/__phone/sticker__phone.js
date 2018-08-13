@@ -1,25 +1,31 @@
-modules.define('sticker__phone', ['i-bem-dom', 'image'], function(provide, bemDom, Image) {
+modules.define('sticker__phone', ['i-bem-dom', 'sticker__phone-icon'], function(provide, bemDom, Icon) {
 
 provide(bemDom.declElem('sticker', 'phone', {
   onSetMod: {
     js: {
       inited: function() {
-        let img = this.findChildBlock(Image);
-        console.log('sticker__phone elem inited');
+        this.iconElem = this._elem(Icon);
+        this.iconElem.delMod('active');
+        this._domEvents().on('mouseenter',this._onMouseEnter);
+        this._domEvents().on('mouseleave',this._onMouseLeave);
       }
     }
   },
 
   _onMouseEnter: function(e) {
     e.preventDefault();
-    console.log(e);
+    this.iconElem.setMod('active');
+  },
+
+  _onMouseLeave: function(e) {
+    e.preventDefault();
+    this.iconElem.delMod('active');
+
   }
 },
 {
-  lazyInit: true,
-  onInit: function() {
-    this._domEvents().on('mouseenter',this.prototype._onMouseEnter);
-  }
+  lazyInit: false,
+  onInit: function() {}
 }));
 
 });
