@@ -3,4 +3,5 @@
   background-image: -webkit-linear-gradient(top, #0779bf 0%, #16498a 100%);
   display: flex;
   justify-content: space-between;
+  position: relative;
 }

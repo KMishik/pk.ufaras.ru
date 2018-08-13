@@ -11,6 +11,7 @@ module.exports = {
     content: [
         {
           block: 'header',
+          mods: { theme: 'bashedu'},
           content: [
             {
               block: 'header',
@@ -28,7 +29,8 @@ module.exports = {
               content: [
                 {
                   elem: 'offic-name',
-                  content: [ 'Официальный сайт БашГУ' ]
+                  elemMods: { theme: 'bashedu'},
+                  content:  'Официальный сайт БашГУ'
                 },
                 {
                   block: 'sticker',
