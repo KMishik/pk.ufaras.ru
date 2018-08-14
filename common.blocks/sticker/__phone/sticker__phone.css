@@ -1,4 +1,6 @@
 .sticker__phone {
   display: flex;
   align-items: center;
+  line-height: 31px;
+  margin: 5px 0px 7px 0px;
 }

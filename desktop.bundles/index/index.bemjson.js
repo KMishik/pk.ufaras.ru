@@ -57,9 +57,7 @@ module.exports = {
                   mix: { block: 'sticker', elem: 'search' },
                   content: [
                     {
-                      block: 'input',
-                      mix: { block: 'search', elem: 'input' },
-                      placeholder: 'найти...'
+                      elem: 'input'
                     },
                     {
                       block: 'button',
