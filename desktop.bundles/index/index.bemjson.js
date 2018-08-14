@@ -58,7 +58,8 @@ module.exports = {
                   content: [
                     {
                       block: 'input',
-                      mix: { block: 'search', elem: 'input' }
+                      mix: { block: 'search', elem: 'input' },
+                      placeholder: 'найти...'
                     },
                     {
                       block: 'button',

@@ -1,0 +1,5 @@
+.search__submit {
+  width: 34px;
+  height: 25px;
+  background: url('../../../static/img/search-button.png') no-repeat;
+}

@@ -39,6 +39,7 @@
     "gulp-postcss": "^7.0.1",
     "gulp-uglify": "^3.0.0",
     "merge2": "^1.1.0",
+    "nodemon": "^1.18.3",
     "postcss-calc": "^6.0.0",
     "postcss-each": "^0.10.0",
     "postcss-for": "^2.1.1",
@@ -53,9 +54,11 @@
   },
   "scripts": {
     "test": "enb make && enb make clean && gulp",
-    "start": "enb server",
+    "server": "enb server",
+    "start": "enb make",
     "build": "enb make",
-    "clean": "enb make clean"
+    "clean": "enb make clean",
+    "live": "nodemon"
   },
   "private": true
 }
