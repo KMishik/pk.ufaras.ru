@@ -1,5 +1,15 @@
 .search__submit {
   width: 34px;
   height: 25px;
+  border: none;
+  border-radius: 15px;
   background: url('../../../static/img/search-button.png') no-repeat;
+  background-position: 50% 0%;
+  background-size: 120%;
+  cursor: pointer;
+  transition: background-position 0.5s ease;
+}
+
+.search__submit:hover {
+  background-position: 50% 94%;
 }
