@@ -1,5 +1,5 @@
 {
   "verbose": false,
-  "watch": [ "common.blocks", "desktop.blocks", "desktop.bundles/*/*.bemjson.js", "devparts.bundles/*/*.bemjson.js", "static" ],
+  "watch": [ "common.blocks", "desktop.blocks", "devparts.blocks", "desktop.bundles/*/*.bemjson.js", "devparts.bundles/*/*.bemjson.js", "static" ],
   "ext": "css, js"
 }

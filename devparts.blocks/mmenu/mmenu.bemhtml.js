@@ -6,9 +6,14 @@ block('mmenu')({
     return [
       {
         elem: 'menu',
+        js: true,
         tag: 'li',
         content: [
-          'ПРИЁМНАЯ КОМИССИЯ',
+          {
+            elem: 'item',
+            tag: 'p',
+            content: 'ПРИЁМНАЯ КОМИССИЯ',
+          },
           {
             elem: 'submenu',
             elemMods: { theme: 'mega' },
@@ -33,7 +38,7 @@ block('mmenu')({
                   'Приёмная комиссия',
                   'Часто задаваемые вопросы',
                   'Нормативные документы приёмной комиссии БашГУ',
-                  'Телефоны и фдреса приёмных комиссий'
+                  'Телефоны и адреса приёмных комиссий'
                 ]
               },
               {
@@ -52,9 +57,30 @@ block('mmenu')({
       },
       {
         elem: 'menu',
+        js: true,
         tag: 'li',
         content: [
-          'БАКАЛАВРИАТ И СПЕЦИАЛИТЕТ',
+          {
+            elem: 'item',
+            tag: 'p',
+            content: 'БАКАЛАВРИАТ И СПЕЦИАЛИТЕТ',
+          },
+          {
+            elem: 'submenu',
+            elemMods: { theme: 'mega' },
+          }
+        ]
+      },
+      {
+        elem: 'menu',
+        js: true,
+        tag: 'li',
+        content: [
+          {
+            elem: 'item',
+            tag: 'p',
+            content: 'МАГИСТРАТУРА',
+          },
           {
             elem: 'submenu',
             elemMods: { theme: 'mega' },
@@ -64,18 +90,13 @@ block('mmenu')({
       {
         elem: 'menu',
         tag: 'li',
+        js: true,
         content: [
-          'МАГИСТРАТУРА',
           {
-            elem: 'submenu'
-          }
-        ]
-      },
-      {
-        elem: 'menu',
-        tag: 'li',
-        content: [
-          'АСПИРАНТУРА',
+            elem: 'item',
+            tag: 'p',
+            content: 'АСПИРАНТУРА',
+          },
           {
             elem: 'submenu',
             elemMods: { theme: 'mega' },
@@ -85,8 +106,13 @@ block('mmenu')({
       {
         elem: 'menu',
         tag: 'li',
+        js: true,
         content: [
-          'КОЛЛЕДЖ БАШГУ',
+          {
+            elem: 'item',
+            tag: 'p',
+            content: 'КОЛЛЕДЖ БАШГУ',
+          },
           {
             elem: 'submenu',
             elemMods: { theme: 'mega' },
