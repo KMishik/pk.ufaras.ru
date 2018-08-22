@@ -3,6 +3,7 @@ block('search')({
 });
 block('search').elem('input')({
   tag: 'input',
+  js: true,
   attrs: {
     type: 'text',
     name: 'regexp',
