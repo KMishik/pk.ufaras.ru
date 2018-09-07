@@ -1,0 +1,10 @@
+.nav__header {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17.36px;
+  color: #e4e4e4;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}

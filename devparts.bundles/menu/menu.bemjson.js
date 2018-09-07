@@ -18,60 +18,14 @@ module.exports = {
             mix: { block: 'nav', elem: 'header' },
             content: [
               {
-                tag: false,
-                content: [
-                  {
-                    elem: 'name',
-                    link: { url: '/' },
-                    content: 'ПРИЁМНАЯ КОМИССИЯ',
-                  },
-                  {
-                    block: 'submenu',
-                    content: [
-                      {
-                        block: 'list',
-                        content: [
-                          '111111',
-                          '222222',
-                          '333333'
-                        ]
-                      },
-                      {
-                        block: 'list',
-                        content: [
-                          '111111',
-                          '222222',
-                          '333333'
-                        ]
-                      },
-                      {
-                        block: 'list',
-                        content: [
-                          '111111',
-                          '222222',
-                          '333333'
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                elem: 'link',
+                name: 'ПРИЁМНАЯ КОМИССИЯ',
+                elemMods: { drop: true },
               },
-              {
-                elem: 'title',
-                content: 'БАКАЛАВРИАТ И СПЕЦИАЛИТЕТ',
-              },
-              {
-                elem: 'title',
-                content: 'МАГИСТРАТУРА',
-              },
-              {
-                elem: 'title',
-                content: 'АСПИРАНТУРА',
-              },
-              {
-                elem: 'title',
-                content: 'КОЛЛЕДЖ БАШГУ',
-              }
+              'БАКАЛАВРИАТ И СПЕЦИАЛИТЕТ',
+              'МАГИСТРАТУРА',
+              'АСПИРАНТУРА',
+              'КОЛЛЕДЖ БАШГУ',
             ]
           }
         ]
