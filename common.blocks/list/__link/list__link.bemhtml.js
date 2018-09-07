@@ -6,3 +6,17 @@ block('list').elem('link')({
     console.log(ctx);
   }*/
 });
+block('list').elem('link').match((node,ctx) => ctx.submenu)({
+  replace: (node,ctx) => ([
+    {
+      elem: 'link',
+      elemMods: { drop: true },
+      name: ctx.name,
+    },
+    {
+      block: 'submenu',
+      content: ctx.content,
+    }
+  ]),
+});
+

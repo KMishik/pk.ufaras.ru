@@ -20,12 +20,33 @@ module.exports = {
               {
                 elem: 'link',
                 name: 'ПРИЁМНАЯ КОМИССИЯ',
-                elemMods: { drop: true },
+                submenu: true,
+                content: '',
               },
-              'БАКАЛАВРИАТ И СПЕЦИАЛИТЕТ',
-              'МАГИСТРАТУРА',
-              'АСПИРАНТУРА',
-              'КОЛЛЕДЖ БАШГУ',
+              {
+                elem: 'link',
+                name: 'БАКАЛАВРИАТ И СПЕЦИАЛИТЕТ',
+                submenu: true,
+                content: '',
+              },
+              {
+                elem: 'link',
+                name: 'МАГИСТРАТУРА',
+                submenu: true,
+                content: '',
+              },
+              {
+                elem: 'link',
+                name: 'АСПИРАНТУРА',
+                submenu: true,
+                content: '',
+              },
+              {
+                elem: 'link',
+                name: 'КОЛЛЕДЖ БАШГУ',
+                submenu: true,
+                content: '',
+              },
             ]
           }
         ]
